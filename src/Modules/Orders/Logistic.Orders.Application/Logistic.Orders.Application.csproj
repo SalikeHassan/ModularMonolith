@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Logistic.Orders.Domain\Logistic.Orders.Domain.csproj" />
+    <ProjectReference Include="..\..\..\Common\Logistic.Common.Application\Logistic.Common.Application.csproj" />
+    <ProjectReference Include="..\Logistic.Orders.IntegrationEvents\Logistic.Orders.IntegrationEvents.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
